@@ -1,0 +1,161 @@
+body
+{
+    
+    background-image:url(dark-coverbook.png)
+}
+a:visited, a
+{
+    text-decoration: none;
+    color: black;
+}
+.toptitle
+{
+    color: #990d36;
+    text-align: left;
+    font-size: 45px;
+    width: 337px;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    text-shadow: 3px 3px 0px rgba(0, 38, 150, 0.98);
+    background-color: #e6c229;
+    border-style: dashed;
+    border-color: #990d36;
+    border-radius: 5px;
+    
+}
+
+#logo
+{
+   float: right;
+    margin-right: 25px;
+    
+    
+}
+.menu
+{
+    background-color: #302f28;
+    height: 40px;
+    min-width: 1080px;
+    margin-top: 30px;
+    border-color:#5f5e50;
+    border-style: solid;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.przycisk
+{
+    height: auto;
+    text-align: center;
+    border-right-style: dotted;
+    width: auto;
+    margin-top: 2px;
+    margin-bottom: 5px;    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    font-size: 120%;
+    padding-right: 10px;
+    padding-left: 10px;
+    min-height: 30px;
+    min-width: 80px;
+    border-style: solid;
+    border-color: transparent;
+}
+.przycisk:after, .przycisk:before
+{
+    display: block;
+    content: '';
+    border-top: solid 3px #a50044; 
+    border-bottom: solid 3px #004d98;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+.przycisk:before
+{
+    position:absolute;
+    bottom: 1.2em; left: 0;
+    width: 100%;
+    
+}
+.przycisk:hover:after, przycisk:hover:before
+{
+    transform: scaleX(1);
+}
+
+
+.przycisk1
+{
+    display: inline-block;
+    margin-top: 7px;
+    float:right;
+
+    color: #020101;
+    border-left-style: ridge;
+    border-color: blue;
+    text-align: center;
+    min-width: 100px;
+    font-size: 120%;
+    height: auto;
+    font-weight: bold;
+    transition: transform .2s ease-in-out;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.przycisk1:hover
+{
+    background-color: #54414e;
+    color: aliceblue;
+    transform: scale(0.95) rotate(5deg);
+}
+#pilkarze
+{
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+
+.pilkarzzdjecie
+{
+    height: 300px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-right: 40px;
+}
+.matchDay
+{
+    color: #7a89c2;
+    padding: 20px;
+    
+    
+}
+.asd
+{
+    float: left;
+    margin-right: 20px;
+    border-radius: 7px;
+    width: 310px;
+    height: 163px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#matchUpTime
+{
+    margin-top: 20px;
+    font-family: 'Press Start 2P', cursive;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    min-width: 190px; 
+    height: 54px;
+    color: #943759;
+    float: left;
+    text-align: center;
+    
+}
+
+
+
